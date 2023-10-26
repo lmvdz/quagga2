@@ -1,5 +1,5 @@
 {
-  "name": "@ericblade/quagga2",
+  "name": "@lmvdz/quagga2",
   "version": "1.8.4",
   "description": "An advanced barcode-scanner written in JavaScript",
   "main": "lib/quagga.js",
@@ -84,10 +84,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ericblade/quagga2.git"
+    "url": "https://github.com/lmvdz/quagga2.git"
   },
   "bugs": {
-    "url": "https://github.com/ericblade/quagga2/issues"
+    "url": "https://github.com/lmvdz/quagga2/issues"
   },
   "keywords": [
     "quagga2",
@@ -103,7 +103,7 @@
     "getUserMedia",
     "imageprocessing"
   ],
-  "author": "Eric Blade <blade.eric@gmail.com>",
+  "author": "Lars van der Zande <xeonpowder@gmail.com>",
   "contributors": [
     "Christoph Oberhofer <ch.oberhofer@gmail.com>",
     "Lindsey Simon <elsigh@gmail.com>",
@@ -138,7 +138,8 @@
     "Andy Edinborough <andy@edinborough.org>",
     "Claudio Cocciarelli <claudiococciarelli@gmail.com>",
     "Hadrien Foucault <hadrien.foucault@gmail.com>",
-    "ghevge <ghevge@github.com>"
+    "ghevge <ghevge@github.com>",
+    "Eric Blade <blade.eric@gmail.com>"
   ],
   "license": "MIT",
   "engines": {
@@ -146,7 +147,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "get-pixels": "^3.3.3",
+    "get-pixels": "https://github.com/MayorScript/get-pixels",
     "gl-matrix": "^3.4.3",
     "lodash": "^4.17.21",
     "ndarray": "^1.0.19",
